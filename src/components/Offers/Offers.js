@@ -37,8 +37,8 @@ const Offers = () => {
      {/* here add spinner */}
       {!offers && <div className='row'>
         <div className="col mt-5">
-        <button class="btn btn-primary " type="button" >
-  <span class="spinner-border spinner-border-sm" role="status" aria-hidden="true"></span>
+        <button className="btn btn-primary " type="button" >
+  <span className="spinner-border spinner-border-sm" role="status" aria-hidden="true"></span>
   Loading...
 </button>
           </div>

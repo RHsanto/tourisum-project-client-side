@@ -10,7 +10,7 @@ const Banner = () => {
            <div className="col-lg-6 text-start text-light">
            <div className="banner-details">
            <h1> Bring new experiences from each journey. Meet different cultures, traditions and landscapes. Choose your next destination and start your trip.</h1>
-           <Link to='/offers'><button type="button" class="btn btn-warning mt-3"><i className="fas fa-location-arrow"></i> Book Now</button></Link>
+           <Link to='/offers'><button type="button" className="btn btn-warning mt-3"><i className="fas fa-location-arrow"></i> Book Now</button></Link>
             </div>
            </div>
           </div>

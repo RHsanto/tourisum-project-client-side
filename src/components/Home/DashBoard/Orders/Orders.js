@@ -17,7 +17,7 @@ fetch(`https://sheltered-temple-89838.herokuapp.com/orders/${user.email}`)
   const handleDelete = id =>{
     const proceed = window.confirm('Are you sure , you want to delete ?');
     if(proceed){
-      const url =`http://localhost:5000/orders/${id}`
+      const url =`https://sheltered-temple-89838.herokuapp.com/orders/${id}`
       fetch(url,{
           method: 'DELETE'
   
@@ -58,7 +58,7 @@ fetch(`https://sheltered-temple-89838.herokuapp.com/orders/${user.email}`)
         <p className="card-text"></p>
         <div className="members d-flex justify-content-between">
           <strong className='text-success'>{order.status}</strong>
-         <div onClick={()=>handleDelete(order._id)} className="btn btn-danger"><i class="fas fa-trash-alt"></i> Delete</div>
+         <div onClick={()=>handleDelete(order._id)} className="btn btn-danger"><i className="fas fa-trash-alt"></i> Delete</div>
         </div>
             </div>
                </div>

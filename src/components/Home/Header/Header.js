@@ -43,8 +43,8 @@ const Header = () => {
      </button>
      <ul className="dropdown-menu mt-2 " aria-labelledby="dropdownMenuButton1">
      <img className=' rounded-circle' src={user.photoURL}alt="img" />
-         <Link to='/orders'><li className='text-dark items text-center'><i class="fas fa-bookmark"></i> My orders</li></Link>
-        <button onClick={logOut}  className="btn btn-outline-danger  w-100"><i class="fas fa-sign-out-alt"></i> logout</button>
+         <Link to='/orders'><li className='text-dark items text-center'><i className="fas fa-bookmark"></i> My orders</li></Link>
+        <button onClick={logOut}  className="btn btn-outline-danger  w-100"><i className="fas fa-sign-out-alt"></i> logout</button>
       </ul>
     </div>
    

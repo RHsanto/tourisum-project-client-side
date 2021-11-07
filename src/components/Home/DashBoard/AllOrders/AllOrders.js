@@ -54,7 +54,8 @@ const AllOrders = () => {
   return (
  <div className="all-order">
     <div className="container">
-      <div class="row row-cols-1 row-cols-md-2 g-4">
+       <h1 className='my-5'> Here all Orders</h1>
+      <div className="row row-cols-1 row-cols-md-2 g-4">
        {
          allOrders.map(order=>
          <div key={order._id}>
@@ -72,9 +73,12 @@ const AllOrders = () => {
          <h6 className="card-title">Date : {order.date}</h6>
             <p className="card-text"></p>
               <div className="members d-flex justify-content-between">
-             
-                 <div onClick={()=>updateOrders(order._id)} className="btn btn-success"> {order.status} </div>
-                 <div onClick={()=>handleDelete(order._id)} className="btn btn-danger"><i class="fas fa-trash-alt"></i> Delete</div>
+                 <div onClick={()=>updateOrders(order._id)} >
+                    {
+                       order.status === "pending" ?  <div className="btn btn-success"> Approved </div> : <p className='text-primary'>Approved</p>
+                    }
+                     </div>
+                 <div onClick={()=>handleDelete(order._id)} className="btn btn-danger"><i className="fas fa-trash-alt"></i> Delete</div>
               </div>
            </div>
        </div>
