@@ -1,0 +1,13 @@
+[
+  { "name":"Panama", "img":"https://images.unsplash.com/photo-1443181844940-9042ec79924b?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=881&q=80", "duration": "6 Days / 7 Night", "price": "3200","rating": "4"},
+
+  { "name":"Canmore, Canada", "img":"https://images.unsplash.com/photo-1465188035480-cf3a60801ea5?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=880&q=80", "duration": "5 Days / 6 Night", "price": "4100","rating": "5"},
+
+  { "name":"O'ahu, United States ", "img":"https://images.unsplash.com/photo-1465311354905-789ff5f7a457?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=880&q=80", "duration": "7 Days / 8 Night", "price": "5500","rating": "4.5"},
+
+  { "name":"Hualien, Taiwan", "img":"https://images.unsplash.com/photo-1587465420095-0fb0d52c1b24?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=873&q=80", "duration": "6 Days / 7 Night", "price": "4500","rating": "4"},
+
+  { "name":"Ericeira, Portugal", "img":"https://images.unsplash.com/photo-1527257886323-1b8cf87b230f?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=880&q=80", "duration": "5 Days / 6 Night", "price": "6000","rating": "4"},
+
+  { "name":"Tokyo,japan", "img":"https://images.unsplash.com/photo-1553292770-c3d14b814242?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=849&q=80", "duration": "8 Days / 9 Night", "price": "5999","rating": "4"}
+]

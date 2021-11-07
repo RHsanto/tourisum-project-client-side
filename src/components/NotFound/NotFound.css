@@ -1,0 +1,16 @@
+.error-div{
+  background-color: #030005;
+}
+.error{
+  font-size: 13em;
+  font-weight: 800;
+  color: #030005;
+  text-shadow: -1px -1px 0 #8400ff, 1px 1px 0 #ff005a;
+  }
+  .error-message{
+    color: rgb(14, 13, 13);
+    text-shadow: 0 2px 0 #8400ff;
+    font-size: 4em;
+    text-transform:uppercase;
+    margin-bottom: 50px;
+  }

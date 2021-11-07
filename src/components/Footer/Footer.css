@@ -1,0 +1,41 @@
+
+.footer-nav a {
+list-style: none;
+text-decoration: none;
+}
+.footer-nav li{
+margin-bottom: 10px;
+}
+
+
+.footer-icon i{
+margin-top: 20px;
+margin-right: 20px;
+color: white;
+border-radius: 3px;
+cursor: pointer;
+}
+
+.fa-facebook-f{
+ background-color: #285DA1;
+ padding: 8px 13px;
+}
+.fa-twitter{
+  background-color: #03A9F4;
+  padding: 8px 10px;
+}
+.fa-pinterest-p{
+  background-color: #df1540;
+  padding: 8px 12px;
+}
+.fa-youtube{
+  background-color: #FF0202;
+  padding: 8px 10px;
+}
+.arrow{
+  color: white;
+  padding: 10px;
+}
+.copyright{
+  padding: 10px;
+}

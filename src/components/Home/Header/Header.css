@@ -1,0 +1,45 @@
+body{
+  font-family: 'Montserrat', sans-serif;
+}
+a{
+  text-decoration: none;
+}
+
+
+.navbar-nav  li {
+  text-decoration: none;
+  color: rgb(0, 0, 0);
+  font-size: 1.2em;
+  margin-right: 20px;
+}
+.navbar-nav  li:hover {
+  color: #ffcc00;
+ 
+}
+.logo{
+  font-size: 2em;
+  font-weight: 800;
+  font-family: 'Henny Penny', cursive;
+  color: #ffcc00 !important;
+  letter-spacing: 3px;
+}
+.login img{
+  width: 50px;
+  height: 50px;
+  margin: 10px 100px;
+}
+ul.dropdown-menu.mt-2.show {
+  padding: 10px;
+}
+.name{
+width: 200px;
+margin: 5px ;
+}
+
+.items{
+padding: 10px;
+margin: 10px;
+}
+.items:hover{
+background-color: rgb(175, 181, 185);
+}

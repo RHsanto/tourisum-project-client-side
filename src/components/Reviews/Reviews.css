@@ -1,0 +1,22 @@
+.review-img img{
+  width: 100%;
+  height: 100%;
+
+}
+.review-img-2{
+  background-image: url("https://wanderers.qodeinteractive.com/wp-content/uploads/2018/02/h1-img-3.jpg?id=128");
+  height: 700px;
+}
+
+
+.customer-img{
+  width: 150px;
+  height: 150px;
+  border-radius: 50%;
+  
+}
+
+.reviews-title h1{
+  font-family: 'Playfair Display', serif;
+  font-size: 3.5em;
+}
