@@ -21,7 +21,7 @@ const AddPackage = () => {
   
   return (
     <div className='add-packages'>
-      <h1>Manage all Packages</h1>
+      <h1>Add a New package here !</h1>
    <div className='container'>
      
     <form className=' ' onSubmit={handleSubmit(onSubmit)}>
