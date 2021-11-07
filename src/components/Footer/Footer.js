@@ -23,10 +23,10 @@ const Footer = () => {
            <div className="footer-nav  mt-4">
               <ul>
         <NavLink to ='/home'><li>Home</li> </NavLink>
-        <NavLink to ='/tours'><li >Tours</li></NavLink>
-        <NavLink to ='/blog'><li>Blog</li></NavLink>
+        <NavLink to ='/'><li >Tours</li></NavLink>
+        <NavLink to ='/'><li>Blog</li></NavLink>
         <NavLink to ='/offers'><li >Offers</li></NavLink>
-        <NavLink to ='/contact'><li >Contact</li></NavLink>
+        <NavLink to ='/'><li >Contact</li></NavLink>
              </ul>
            </div>
           
