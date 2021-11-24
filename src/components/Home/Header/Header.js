@@ -71,4 +71,3 @@ const Header = () => {
 };
 
 export default Header;
-//  {/* <i className="fas fa-shopping-cart text-light"> </i> */}
