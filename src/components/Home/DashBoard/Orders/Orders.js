@@ -11,7 +11,7 @@ fetch(`https://sheltered-temple-89838.herokuapp.com/orders/${user.email}`)
 .then(res=> res.json())
 .then(data=> setOrders(data))
 
-  },[])
+  },[user])
   
   // here orders delete
   const handleDelete = id =>{

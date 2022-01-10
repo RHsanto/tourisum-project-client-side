@@ -1,6 +1,6 @@
 import { BrowserRouter as Router,Switch,Route} from 'react-router-dom';
 import './App.css';
-
+import {useState, useEffect } from 'react'
 import Footer from './components/Footer/Footer';
 import Header from './components/Home/Header/Header';
 import Home from './components/Home/Home';
@@ -13,10 +13,28 @@ import AllOrders from './components/Home/DashBoard/AllOrders/AllOrders';
 import AddPackage from './components/Home/DashBoard/AddPackage/AddPackage';
 import Booking from './components/Booking/Booking';
 import Orders from './components/Home/DashBoard/Orders/Orders';
-
+import { BoltLoader } from "react-awesome-loaders"
 function App() {
+  const [loading , setLoading]= useState(false) ;
+
+  useEffect(()=>{
+    setLoading(true)
+    setTimeout(()=>{
+      setLoading(false)
+    },6000)
+  },[])
   return (
     <div className="App">
+       {
+        loading ?<div className='loading' >
+      <BoltLoader
+        className={"loaderbolt"}
+        boltColor={"#FFA418"}
+        backgroundBlurColor={"#E0E7FF"}
+      />
+
+      </div>
+        :
      <AuthProvider>
      <Router>
        <Header></Header>
@@ -51,7 +69,7 @@ function App() {
        </Switch>
        <Footer></Footer>
      </Router>
-     </AuthProvider>
+     </AuthProvider>}
     </div>
   );
 }
