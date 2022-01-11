@@ -40,3 +40,7 @@
 .loading{
 display: inline-block;
 }
+
+::selection{
+  background-color:#FFCA2C ;
+}

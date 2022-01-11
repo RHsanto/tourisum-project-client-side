@@ -3,7 +3,7 @@ import { NavLink } from 'react-router-dom';
 import './Footer.css'
 const Footer = () => {
   return (
-    <footer >
+    <footer className='bg-dark text-light mt-5'>
       {/* start footer  section*/}
       <div className="container p-5">
       <div className="row">
@@ -33,7 +33,7 @@ const Footer = () => {
         </div>
         {/* search bar here */}
         <div className="col-lg-4 ">
-            <h4 className=' fw-bold mt-5 text-dark'>Search Your Destination</h4>
+            <h4 className=' fw-bold mt-5'>Search Your Destination</h4>
             <input className='p-2 fs-6' type="text" placeholder='Search' />
             <button className='border-0 arrow bg-warning'><i className="fas fa-arrow-right"></i></button>
          </div>
