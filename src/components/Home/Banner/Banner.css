@@ -1,19 +1,22 @@
-.banner{
 
-background-image: url('https://images.unsplash.com/photo-1501555088652-021faa106b9b?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=1473&q=80') ;
-background-position:  center;
-background-repeat: no-repeat ;
-background-size: cover;
-box-shadow:inset 0 0 0 2000px rgba(0, 0, 0, 0.4);
-
-}
-
-.banner-details{
+.carousel-item img{
   width: 100%;
-  margin: 200px 0px;
- 
+  height: 900px;
+}
+.banner-details{
+text-align: start;
+margin: 350px 0px;
+text-shadow: 2px 2px #f0b810 ;
+ color: rgb(255, 255, 255);
 }
 .banner-details h1{
   font-family: 'Playfair Display', serif;
 }
 
+@media only screen and (max-width: 600px) {
+
+  .carousel-item img{
+    
+    height: 100%;
+  }
+}
