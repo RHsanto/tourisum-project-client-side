@@ -12,7 +12,7 @@ const Banner = () => {
         <div className="container-fluid p-0">
         <div id="carouselExampleFade" class="carousel slide carousel-fade" data-bs-ride="carousel">
   <div class="carousel-inner">
-    <div class="carousel-item active">
+    <div class="carousel-item active slider">
       <img src={Slider1} class="d-block img-fluid" alt="..."/>
       <div class="carousel-caption d-none d-md-inline-block">
       <div className="row">
@@ -27,7 +27,7 @@ const Banner = () => {
       </div>
       </div>
     </div>
-    <div class="carousel-item">
+    <div class="carousel-item slider">
       <img src={Slider2} class="d-block img-fluid" alt="..."/>
       <div class="carousel-caption d-none d-md-inline-block">
       <div className="row">
@@ -42,7 +42,7 @@ const Banner = () => {
       </div>
       </div>
     </div>
-    <div class="carousel-item">
+    <div class="carousel-item slider">
       <img src={Slider3} class="d-block img-fluid" alt="..."/>
       <div class="carousel-caption d-none d-md-inline-block">
       <div className="row">
@@ -57,7 +57,7 @@ const Banner = () => {
       </div>
       </div>
     </div>
-    <div class="carousel-item">
+    <div class="carousel-item slider">
       <img src={Slider4} class="d-block img-fluid" alt="..."/>
       <div class="carousel-caption d-none d-md-inline-block">
       <div className="row">
