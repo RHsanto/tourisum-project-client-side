@@ -1,6 +1,7 @@
 import React, { useEffect, useState } from 'react';
 import Offer from '../Offers/Offer/Offer'
 import './Offers.css'
+import { BoxesLoader } from "react-awesome-loaders";
 const Offers = () => {
 
   const [offers,setOffers] = useState(null);
@@ -37,10 +38,14 @@ const Offers = () => {
      {/* here add spinner */}
       {!offers && <div className='row'>
         <div className="col mt-5">
-        <button className="btn btn-primary " type="button" >
-  <span className="spinner-border spinner-border-sm" role="status" aria-hidden="true"></span>
-  Loading...
-</button>
+        <div className='loading'>
+      <BoxesLoader
+        boxColor={"#FFCA28"}
+        style={{ marginBottom: "20px" }}
+        desktopSize={"128px"}
+        mobileSize={"80px"}
+      />
+    </div>
           </div>
           </div>}
   
