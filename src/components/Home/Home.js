@@ -13,7 +13,7 @@ const Home = () => {
     <div className="container">
         <div className="row about-details">
           <div className="col-lg-6 about-img">
-            <img src="https://images.unsplash.com/photo-1619878796466-b7982b1d9263?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1074&q=80" alt="img" />
+            <img src="https://images.unsplash.com/photo-1609137144813-7d9921338f24?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=687&q=80" alt="img" />
           </div>
           <div className="col-lg-6 fw-bold">
             <h1>
