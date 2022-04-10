@@ -1,4 +1,5 @@
 import React, { useEffect, useState } from 'react';
+import { Link } from 'react-router-dom';
 import useAuth from '../../../../hooks/useAuth';
 
 
@@ -60,6 +61,12 @@ fetch(`https://sheltered-temple-89838.herokuapp.com/orders/${user.email}`)
           <strong className='text-success'>{order.status}</strong>
          <div onClick={()=>handleDelete(order._id)} className="btn btn-danger"><i className="fas fa-trash-alt"></i> Delete</div>
         </div>
+        <div>{order?.payment ? "paid" :
+          <Link to={`/payment/${order._id}`}>
+           <div className="btn btn-primary">Pay</div>
+          </Link>
+        }</div>
+      
             </div>
                </div>
                   </div>

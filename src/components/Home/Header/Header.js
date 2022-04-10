@@ -9,7 +9,7 @@ const Header = () => {
   const {user,logOut}=useAuth();
   
   return (
-    <div className='container-fluid fixed-top  bg-light'>
+    <div className='container-fluid   bg-light'>
       <nav className="navbar navbar-expand-lg navbar-light  ">
         
      <div className="container-fluid ">
@@ -24,6 +24,7 @@ const Header = () => {
      <div className="navbar-nav d-flex justify-content-center align-items-center">
         <NavLink to ='/home'><li>Home</li> </NavLink>
         <NavLink to ='/offers'><li >Offers</li></NavLink>
+       
        
       {user.email ?
       <>

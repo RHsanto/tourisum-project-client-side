@@ -8,7 +8,7 @@ import '../Banner/Banner.css'
 const Banner = () => {
   return (
     <div>
-      <div className=" banner  mt-5">
+      <div className=" banner">
         <div className="container-fluid p-0">
         <div id="carouselExampleFade" class="carousel slide carousel-fade" data-bs-ride="carousel">
   <div class="carousel-inner">

@@ -1,6 +1,6 @@
 import { BrowserRouter as Router,Switch,Route} from 'react-router-dom';
 import './App.css';
-import {useState, useEffect } from 'react'
+// import {useState, useEffect } from 'react'
 import Footer from './components/Footer/Footer';
 import Header from './components/Home/Header/Header';
 import Home from './components/Home/Home';
@@ -13,19 +13,20 @@ import AllOrders from './components/Home/DashBoard/AllOrders/AllOrders';
 import AddPackage from './components/Home/DashBoard/AddPackage/AddPackage';
 import Booking from './components/Booking/Booking';
 import Orders from './components/Home/DashBoard/Orders/Orders';
-import { BoltLoader } from "react-awesome-loaders"
+// import { BoltLoader } from "react-awesome-loaders"
+import Payment from './components/Payment/Payment';
 function App() {
-  const [loading , setLoading]= useState(false) ;
+  // const [loading , setLoading]= useState(false) ;
 
-  useEffect(()=>{
-    setLoading(true)
-    setTimeout(()=>{
-      setLoading(false)
-    },6000)
-  },[])
+  // useEffect(()=>{
+  //   setLoading(true)
+  //   setTimeout(()=>{
+  //     setLoading(false)
+  //   },1500)
+  // },[])
   return (
     <div className="App">
-       {
+       {/* {
         loading ?<div className='loading' >
       <BoltLoader
         className={"loaderbolt"}
@@ -34,7 +35,7 @@ function App() {
       />
 
       </div>
-        :
+        : */}
      <AuthProvider>
      <Router>
        <Header></Header>
@@ -63,13 +64,16 @@ function App() {
          <Route path='/signin'>
           <SignIn></SignIn>
          </Route>
+         <Route path='/payment/:id'>
+         <Payment/>
+         </Route>
          <Route path='*'>
         <NotFound></NotFound>
          </Route>
        </Switch>
        <Footer></Footer>
      </Router>
-     </AuthProvider>}
+     </AuthProvider>
     </div>
   );
 }

@@ -36,7 +36,7 @@ const Booking = () => {
     .then(res=> res.json())
     .then(data => setOrder(data))
    
-  },[])
+  },[id])
   
   return (
     <div className='booking'>
