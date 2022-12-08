@@ -8,7 +8,7 @@ const Offers = () => {
   
   useEffect(()=>{
   setTimeout(()=>{
-    fetch('https://sheltered-temple-89838.herokuapp.com/offers')
+    fetch('https://tourisum-server.onrender.com/offers')
     .then(res => res.json())
     .then(data => setOffers(data))
   },2000)

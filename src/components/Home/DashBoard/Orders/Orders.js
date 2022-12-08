@@ -8,7 +8,7 @@ const Orders = () => {
  const{user}=useAuth();
 
 useEffect(()=>{
-fetch(`https://sheltered-temple-89838.herokuapp.com/orders/${user.email}`)
+fetch(`https://tourisum-server.onrender.com/orders/${user.email}`)
 .then(res=> res.json())
 .then(data=> setOrders(data))
 
@@ -18,7 +18,7 @@ fetch(`https://sheltered-temple-89838.herokuapp.com/orders/${user.email}`)
   const handleDelete = id =>{
     const proceed = window.confirm('Are you sure , you want to delete ?');
     if(proceed){
-      const url =`https://sheltered-temple-89838.herokuapp.com/orders/${id}`
+      const url =`https://tourisum-server.onrender.com/orders/${id}`
       fetch(url,{
           method: 'DELETE'
   

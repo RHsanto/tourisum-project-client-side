@@ -22,7 +22,7 @@ const Booking = () => {
    data.status ="pending";
 
   //  here post order
-    axios.post('https://sheltered-temple-89838.herokuapp.com/orders',data)
+    axios.post('https://tourisum-server.onrender.com/orders',data)
     .then(res =>{
       if(res.data.insertedId){
         alert('Order Successful');
@@ -32,7 +32,7 @@ const Booking = () => {
   };
   
   useEffect(()=>{
-    fetch(`https://sheltered-temple-89838.herokuapp.com/offers/${id}`)
+    fetch(`https://tourisum-server.onrender.com/offers/${id}`)
     .then(res=> res.json())
     .then(data => setOrder(data))
    

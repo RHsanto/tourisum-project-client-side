@@ -7,7 +7,7 @@ const AddPackage = () => {
 
   const onSubmit = data => {
     console.log(data);
-    axios.post('https://sheltered-temple-89838.herokuapp.com/offers',data)
+    axios.post('https://tourisum-server.onrender.com/offers',data)
     .then(res =>{
       console.log(res);
       if(res.data.insertedId){
